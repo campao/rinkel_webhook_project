@@ -1,4 +1,6 @@
 from flask import Flask, request, jsonify
+from config import API_KEY
+print(f"Using API Key: {API_KEY}")
 
 app = Flask(__name__)
 
